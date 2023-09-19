@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add esbuild
+
+PATH: 
+  /home/shashank/.rbenv/versions/3.1.4/lib/ruby/gems/3.1.0/bin:/home/shashank/.rbenv/versions/3.1.4/bin:/home/shashank/.rbenv/libexec:/home/shashank/.rbenv/plugins/ruby-build/bin:/home/shashank/.rbenv/shims:/home/shashank/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.22.9
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.26.34:443 - Local (0.0.0.0:0)
+      at internalConnect (net.js:924:16)
+      at defaultTriggerAsyncIdScope (internal/async_hooks.js:364:12)
+      at emitLookup (net.js:1060:9)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103587:28
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103496:13
+      at RawTask.module.exports.RawTask.call (/usr/local/lib/node_modules/yarn/lib/cli.js:79584:19)
+      at flush (/usr/local/lib/node_modules/yarn/lib/cli.js:79666:29)
+      at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+npm manifest: 
+  {
+    "name": "app",
+    "private": "true"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
